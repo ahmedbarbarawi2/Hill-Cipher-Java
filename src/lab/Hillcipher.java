@@ -28,7 +28,7 @@ public int [] [] keymanage (String key , int []substuiotion){
 	for (int i =0 ; i<2 ; i++) {
 		for (int k =0 ; k<2 ; k++) {
 			Key[i][k] = key_num[i+k];
-//			System.out.println(key_num[i+k]);
+		System.out.println(key_num[i+k]);
 		}
 	}
 	return Key;
@@ -46,7 +46,7 @@ public int [] [] keymanage (String key , int []substuiotion){
 			for (int k = 0; k<26;k++) {
 			if (substuiotion[k]==(int )(c-'a')) {
 				DATA[i]=(int )(c-'a');
-//				System.out.println(DATA[i]);
+				System.out.println(DATA[i]);
 				}		
 		}	
 	}
